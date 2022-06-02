@@ -1,1 +1,5 @@
-
+let kurby = sprites.create(assets.image`kurby`, SpriteKind.Player)
+controller.moveSprite(kurby, 100, 100)
+scene.setBackgroundImage(assets.image`Background liso`)
+tiles.setCurrentTilemap(tilemap`level1`)
+scene.cameraFollowSprite(kurby)

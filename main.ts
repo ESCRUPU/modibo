@@ -1,5 +1,10 @@
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.purpleSwitchDown, function (sprite, location) {
+    game.over(true)
+})
 let kurby = sprites.create(assets.image`kurby`, SpriteKind.Player)
 controller.moveSprite(kurby, 100, 100)
 scene.setBackgroundImage(assets.image`Background liso`)
 tiles.setCurrentTilemap(tilemap`level1`)
+tiles.placeOnRandomTile(kurby, assets.tile`transparency16`)
 scene.cameraFollowSprite(kurby)
+info.startCountdown(20)

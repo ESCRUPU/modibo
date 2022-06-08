@@ -3,8 +3,25 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairLarge, function (spr
 })
 let kurby = sprites.create(assets.image`kurby`, SpriteKind.Player)
 controller.moveSprite(kurby, 100, 100)
-scene.setBackgroundImage(assets.image`Background liso`)
-tiles.setCurrentTilemap(tilemap`level1`)
+scene.setBackgroundImage(img`
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    a a a a a a a a a a a a a a a a 
+    `)
+tiles.setCurrentTilemap(tilemap`level3`)
 tiles.placeOnRandomTile(kurby, sprites.dungeon.collectibleInsignia)
 scene.cameraFollowSprite(kurby)
 info.startCountdown(20)

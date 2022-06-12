@@ -120,20 +120,20 @@
 ................................................................................................................................................................
 ................................................................................................................................................................
 `</field><data>{"commentRefs":[],"fieldData":{"img":"c1IaZ`|WX,_6rVzSOdlJ"}}</data></shadow><block type="background_image_picker" id="VeY1c:(m1[nwG_O6IvF|"><field name="img">img`
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
-a a a a a a a a a a a a a a a a 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
 `</field><data>{"commentRefs":[],"fieldData":{"img":"VeY1c:(m1[nwG_O6IvF|"}}</data></block></value><next><block type="set_current_tilemap" id="W-iRIh=Z+d6!}c_e~zJO"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="I]1xuX%!t~@7OV??xypE"><field name="tilemap">tilemap`level3`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level3"}}</data></shadow></value><next><block type="mapplaceonrandomtile" id="-;V2ZhI5WesBKN`OXZmq"><value name="sprite"><block type="variables_get" id="QMSO-#cDr!PhiB9cY@`?"><field name="VAR" id="-jhz%kY,uE:hIqiu-z^t">kurby</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="wO]*1-jV)Fegk20ZP?7r"><field name="tile">sprites.dungeon.collectibleInsignia</field></shadow></value><next><block type="camerafollow" id="a?cHj65YZmrE9+%unxFc"><value name="sprite"><block type="variables_get" id="PF3uQ24@-2CV%fgA_3.U"><field name="VAR" id="-jhz%kY,uE:hIqiu-z^t">kurby</field></block></value><next><block type="gamecountdown" id="`n9Q.voTv0$QyOiG}=Uc"><value name="duration"><shadow type="math_number" id="KA-PLdBY6@kz()zcd9#S"><field name="NUM">20</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spriteshittile" id="/W-rT4k+512m*xAHPkQ:" x="570" y="50"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="4+L(jG/4y)G[xTcM-{}C"><mutation typename="Sprite"></mutation><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="N#O$1m#n]8h%3BbU9lbu"><field name="MEMBER">Player</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="Gv}q^M)6pL7Rx.|;x{!W"><field name="tile">sprites.dungeon.stairLarge</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="_Wm:j6]nq}ExZg;~hq53"><mutation typename="tiles.Location"></mutation><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="gameOver" id="{[sI1d7F86Z.-_gp7FE7"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="effect">effects.confetti</field><value name="win"><shadow type="toggleWinLose" id="}oR|U;E@kH.E7Tzt4R=B"><field name="win">true</field></shadow></value></block></statement></block></xml>

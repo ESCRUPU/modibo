@@ -4,22 +4,22 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairLarge, function (spr
 let kurby = sprites.create(assets.image`kurby`, SpriteKind.Player)
 controller.moveSprite(kurby, 100, 100)
 scene.setBackgroundImage(img`
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
-    a a a a a a a a a a a a a a a a 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
+    b b b b b b b b b b b b b b b b 
     `)
 tiles.setCurrentTilemap(tilemap`level3`)
 tiles.placeOnRandomTile(kurby, sprites.dungeon.collectibleInsignia)
